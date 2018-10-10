@@ -52,7 +52,6 @@ function renderButtons() {
 $("#add-celebrityName").on("click", function(event) {
     event.preventDefault();
     var celebrity = $("#celebrityName-input").val().trim();
-    a.addClass("btn btn-light");
     celebrityName.push(celebrity);
     renderButtons();
 });
